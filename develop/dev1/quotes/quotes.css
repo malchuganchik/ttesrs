@@ -1,0 +1,48 @@
+.quotes{
+  padding: 100px 0;
+  background: var(--light-bg);
+  color: var(--text-dark);
+}
+.quotes__header{
+  margin-bottom: 60px;
+  padding-left: 50px;
+}
+.quotes__tag{
+  color: var(--accent);
+  font-size:11px;
+  letter-spacing:3px;
+  margin-bottom:15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: block;
+}
+.quotes__title{
+  margin:10px 0 0 0;
+  font-size:32px;
+  color: var(--text-dark);
+  font-weight: 700;
+}
+.quotes__grid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.quotes__item{
+  padding: 0;
+}
+.quotes__author{
+  font-size:14px;
+  margin:0 0 12px;
+  letter-spacing:0.3px;
+  color: var(--text-dark);
+  font-weight: 600;
+}
+.quotes__text{
+  font-size:14px;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}

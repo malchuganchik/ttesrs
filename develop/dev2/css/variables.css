@@ -1,0 +1,23 @@
+/* =========== BASE =========== */
+:root{
+  --container: 1160px;
+  --accent: #f3bfa0;
+  --dark-bg: #000;
+  --light-bg: #fff;
+  --text-dark: #000;
+  --text-light: #fff;
+}
+
+* { box-sizing: border-box; }
+html, body{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color:#111;
+  background:#fff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.45;
+}
